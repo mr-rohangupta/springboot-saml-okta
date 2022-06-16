@@ -16,13 +16,13 @@
 
 **_In the General Setting give the application name and click next_**
 
-**_Now you are in configure SAML page in Single sign on URL option put [http://localhost:8080/saml/SSO](https://localhost:8443/saml/SSO) and in Audience URI put [http://localhost:8080/saml/metadata](https://localhost:8443/saml/metadata) and next _**
+**_Now you are in configure SAML page in Single sign on URL option put [http://localhost:8080/saml/SSO](https://localhost:8443/saml/SSO) and in Audience URI put [http://localhost:8080/saml/metadata](https://localhost:8443/saml/metadata) and next_**
 
 **_Once done then select the first radio button I'm an Okta customer adding an internal app_**
 
 **_And the checkbox This is an internal app that we have created and Finish_**
 
-**_Now your application is successfully created now go to sign on tab and copy the Identity Provider Metadata URL and put in application.properties under saml.metadataUrl _**
+**_Now your application is successfully created now go to sign on tab and copy the Identity Provider Metadata URL and put in application.properties under saml.metadataUrl_**
 
 **_Then go to View Setup Instructions and copy Identity Provider Issuer and put under saml.idp inside application.properties file_**
 
